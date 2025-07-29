@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}Shortener{% endblock %}
+
+{% block content %}
+<form action="shorten" method="POST">
+    <input type="text" name="original" id="original">
+    <button>Submit</button>
+</form>
+{% endblock %}
